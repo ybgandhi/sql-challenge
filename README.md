@@ -8,7 +8,12 @@ The task of this assignment is to organize and analyze employee data of a corpor
 Using a SQL Database, tables will be designed that hold specific data from each of the six CSV files 
 
 
-#### Data Engineering
+#### Data Modeling
+* using [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com), a ERD diagram was created [Employee ERD.PNG] to illustrate the schema built later on. The SQl file can be found in There are two primary keys throughout this database:
+  * Employee number (emp_no)
+  * Department number (dept_no)
+
+
 
 Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
 
