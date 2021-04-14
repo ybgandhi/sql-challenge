@@ -5,17 +5,19 @@ CREATE TABLE departments (
 
 CREATE TABLE salaries (
 	emp_no INTEGER PRIMARY KEY NOT NULL,
-	salary INTEGER NOT NULL
+	salary INTEGER NOT NULL,
+    FOREIGN KEY (emp_no) REFERENCES employees(emp_no)
 );
 
 CREATE TABLE employees (
 	emp_no INTEGER PRIMARY KEY NOT NULL,
+    emp_title_id VARCHAR NOT NULL,
 	birth_date DATE NOT NULL,
 	first_name VARCHAR(50) NOT NULL,
-	last_name VARCHAR(50) NOT NULL,
+	last_name VARCHAR(50) NOT NULL, 
 	sex VARCHAR(50) NOT NULL,
 	hire_date VARCHAR(50) NOT NULL,
-	FOREIGN KEY (emp_no) REFERENCES salaries
+	FOREIGN KEY (emp_title_id) REFERENCES titles(title_id)
 );
 
 CREATE TABLE dept_emp (
