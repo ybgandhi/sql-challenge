@@ -1,10 +1,10 @@
-# SQL Homework - Employee Database: A Mystery in Two Parts
+# Employee Database: A Mystery in Two Parts
 
 ![sql.png](sql.png)
 
 ## Background
 
-The task of this assignment is to organize and analyze employee data of a corporation from the 1980s and 1990s. The information is contained in six CSV files.
+Organize and analyze employee data of a corporation from the 1980s and 1990s. The information is contained in six CSV files.
 Using a SQL Database, tables will be designed that hold specific data from each of the six CSV files 
 
 
@@ -82,6 +82,3 @@ Evidence in hand, you march into your boss's office and present the visualizatio
 
 * Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
 
-### Copyright
-
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
